@@ -43,7 +43,7 @@ def calculate_string_distance(first_string, second_string):
     if len(first_string) == 0:
         return len(second_string)
     if len(second_string) == 0:
-        return len(second_string)
+        return len(first_string)
 
     if first_string[0] == second_string[0]:
         distance = 0
